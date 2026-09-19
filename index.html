@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hub | Links & Resources</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- FontAwesome for standard icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+  <div class="background-blobs">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <main class="container">
+    <!-- Top Utility Bar -->
+    <header class="top-nav">
+      <button id="themeToggle" class="icon-btn" title="Toggle Theme" aria-label="Toggle Theme">
+        <i class="fas fa-moon"></i>
+      </button>
+      <div class="nav-right">
+        <button id="qrBtn" class="icon-btn" title="Show QR Code" aria-label="Show QR Code">
+          <i class="fas fa-qrcode"></i>
+        </button>
+        <button id="shareBtn" class="icon-btn" title="Share Profile" aria-label="Share Profile">
+          <i class="fas fa-share-alt"></i>
+        </button>
+      </div>
+    </header>
+
+    <!-- Profile Header -->
+    <section class="profile-card">
+      <div class="avatar-wrap">
+        <img id="avatar" src="" alt="Profile Photo" />
+        <span id="verifiedBadge" class="verified-icon" title="Verified"><i class="fas fa-check"></i></span>
+      </div>
+      <h1 id="name">Loading...</h1>
+      <p id="handle" class="handle">@user</p>
+      <p id="bio" class="bio">Profile bio loading...</p>
+      
+      <!-- Quick Contact Actions -->
+      <div class="quick-actions">
+        <button id="vcardBtn" class="btn btn-secondary">
+          <i class="fas fa-address-card"></i> Save Contact
+        </button>
+      </div>
+
+      <!-- Quick Social Icons -->
+      <div id="socialIcons" class="social-bar"></div>
+    </section>
+
+    <!-- Search & Filter Controls -->
+    <section class="controls">
+      <div class="search-bar">
+        <i class="fas fa-search search-icon"></i>
+        <input type="text" id="searchInput" placeholder="Search links, subjects, groups..." />
+        <button id="clearSearch" class="clear-btn" style="display:none;"><i class="fas fa-times"></i></button>
+      </div>
+
+      <nav class="category-tabs" id="categoryTabs">
+        <button class="tab-btn active" data-category="all">All</button>
+        <button class="tab-btn" data-category="groups">Groups</button>
+        <button class="tab-btn" data-category="resources">Resources</button>
+        <button class="tab-btn" data-category="socials">Socials</button>
+      </nav>
+    </section>
+
+    <!-- Links List Area -->
+    <section class="links-container" id="linksContainer">
+      <!-- Injected Dynamically by app.js -->
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="currentYear"></span> All Rights Reserved</p>
+    </footer>
+  </main>
+
+  <!-- QR Code Modal -->
+  <div id="qrModal" class="modal">
+    <div class="modal-content">
+      <button class="modal-close" id="closeModal">&times;</button>
+      <h3>Scan to Open</h3>
+      <p>Point your phone camera to open this hub directly.</p>
+      <div class="qr-box">
+        <img id="qrImage" src="" alt="QR Code" />
+      </div>
+      <button id="copyUrlBtn" class="btn btn-primary" style="margin-top: 15px; width: 100%;">
+        <i class="fas fa-link"></i> Copy Link
+      </button>
+    </div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
