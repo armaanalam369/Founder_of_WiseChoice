@@ -1,13 +1,13 @@
 const profileData = {
   name: "Armaan Alam",
-  handle: "@armaanalam",
+  handle: "@glitchxarm",
   bio: "Educator, Mentor & Content Creator | Sharing study resources, examination guides & community updates.",
   avatar: "armaan.png",
   verified: true,
   // vCard details for the "Save Contact" button
   contact: {
-    phone: "+910000000000",
-    email: "contact@example.com",
+    phone: "+91-9748747583",
+    email: "wisechoiceofficials@gmail.com",
     title: "Student & Community Lead",
     url: window.location.href
   },
