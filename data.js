@@ -2,7 +2,7 @@ const profileData = {
   name: "Armaan Alam",
   handle: "@armaanalam",
   bio: "Educator, Mentor & Content Creator | Sharing study resources, examination guides & community updates.",
-  avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+  avatar: "armaan.png",
   verified: true,
   // vCard details for the "Save Contact" button
   contact: {
