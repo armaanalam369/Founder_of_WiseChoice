@@ -105,6 +105,12 @@ const teamData = [
     photo: "rashid.png",
     link: ""
   },
+   {
+    name: "Fatma Khatoon",
+    role: "Teacher (Urdu)",
+    photo: "",
+    link: ""
+  },
 ];
 
 /* ------------------- LINKS (websites, channels, groups) ------------------- */
