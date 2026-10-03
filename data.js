@@ -67,7 +67,7 @@ const profileData = {
   contact: {
     phone: "+91-9748747583",
     email: "wisechoiceofficials@gmail.com",
-    title: "Student & Community Lead",
+    title: "Founder & CEO",
     url: window.location.href
   },
   // Social icons at the top
