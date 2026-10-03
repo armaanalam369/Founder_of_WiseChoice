@@ -104,7 +104,7 @@ const teamData = [
     role: "Teacher (Persian)",
     photo: "rashid.png",
     link: ""
-  }
+  },
 ];
 
 /* ------------------- LINKS (websites, channels, groups) ------------------- */
