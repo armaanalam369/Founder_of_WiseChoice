@@ -64,12 +64,15 @@ const profileData = {
   avatar: "armaan.png",
   verified: true,
   // vCard details for the "Save Contact" button
-  contact: {
-    phone: "+91-9748747583",
-    email: "wisechoiceofficials@gmail.com",
-    title: "Founder & CEO",
-    url: window.location.href
-  },
+  // contact: { //
+   // phone: "+91-9748747583", //
+  //  email: "wisechoiceofficials@gmail.com", //
+  //  title: "Founder & CEO", //
+  //  url: window.location.href //
+  //  }, //
+   
+  // above content to display > Contact to }, //
+   
   // Social icons at the top
   socials: [
     { icon: "fab fa-whatsapp", url: "https://whatsapp.com/channel/0029VaryZMKLY6dAMTudnA2x", label: "WhatsApp" },
