@@ -95,7 +95,7 @@ const teamData = [
     role: "Moderator",
     photo: "sahil.png",
     link: ""
-  }
+  },
    {
     name: "Rashid Ahmed Khan",
     role: "Teacher (Persian)",
