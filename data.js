@@ -92,8 +92,14 @@ const categories = [
 const teamData = [
   {
     name: "Sahil Khan",
-    role: "Managing Director",
+    role: "Moderator",
     photo: "sahil.png",
+    link: ""
+  }
+   {
+    name: "Rashid Ahmed Khan",
+    role: "Teacher (Persian)",
+    photo: "rashid.png",
     link: ""
   }
 ];
