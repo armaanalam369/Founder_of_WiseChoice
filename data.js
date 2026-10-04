@@ -115,7 +115,7 @@ const teamData = [
    // name: "Animesh Chaubey",
    // role: "",
    // photo: "animesh.png",
-   // link: ""
+   // link: "https://www.instagram.com/animeshpandit.020?stkn=dTV1YXd5eHI2ZDNt"
   //},
   // {
    // name: "Aafreen Parveen",
