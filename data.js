@@ -111,6 +111,24 @@ const teamData = [
     photo: "",
     link: ""
   },
+  // {
+   // name: "Animesh Chaubey",
+   // role: "",
+   // photo: "animesh.png",
+   // link: ""
+  //},
+  // {
+   // name: "Aafreen Parveen",
+    //role: "",
+   // photo: "aafreen.png",
+  //  link: ""
+ // },
+   //{
+   // name: "Sahil Khan",
+  //  role: "Moderator",
+   // photo: "sahil.png",
+   // link: ""
+//  },
 ];
 
 /* ------------------- LINKS (websites, channels, groups) ------------------- */
